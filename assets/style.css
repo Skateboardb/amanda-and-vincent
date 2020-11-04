@@ -1,0 +1,73 @@
+/* Header  */
+
+#header {
+  text-align: center;
+  background: url('img/hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#logo {
+  width: 100px;
+  text-align: center;
+}
+
+#navbar {
+  margin: auto;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+#hero-text {
+  width: 50%;
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
+/* Save the Date */
+#main-column {
+  margin: auto;
+  padding: 0 2rem;
+}
+
+#save-date-headline {
+  text-align: center;
+}
+
+.save-date-col {
+  height: 20rem;
+}
+
+#save-date-space {
+  background-image: url('./img/stay/space.png');
+  /* height: 100%; */
+  background-position: center;
+  background-size: cover;
+}
+
+#save-date-venue {
+  background-image: url('./img/stay/venue.png');
+  /* height: 100%; */
+  background-position: center;
+  background-size: cover;
+  border-right: white solid 0.5rem;
+  border-left: white solid 0.5rem;
+}
+
+#save-date-hotel {
+  background-image: url('./img/stay/hotel.png');
+  /* height: 100%; */
+  background-position: center;
+  background-size: cover;
+}
+
+/* 
+.save-date-photo {
+  height: 20rem;
+} */
