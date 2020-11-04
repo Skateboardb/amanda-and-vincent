@@ -31,6 +31,9 @@
 }
 
 /* Save the Date */
+
+/* --Venue */
+
 #main-column {
   margin: auto;
   padding: 0 2rem;
@@ -46,14 +49,14 @@
 
 #save-date-space {
   background-image: url('./img/stay/space.png');
-  /* height: 100%; */
+
   background-position: center;
   background-size: cover;
 }
 
 #save-date-venue {
   background-image: url('./img/stay/venue.png');
-  /* height: 100%; */
+
   background-position: center;
   background-size: cover;
   border-right: white solid 0.5rem;
@@ -62,12 +65,41 @@
 
 #save-date-hotel {
   background-image: url('./img/stay/hotel.png');
-  /* height: 100%; */
+
   background-position: center;
   background-size: cover;
 }
 
-/* 
-.save-date-photo {
-  height: 20rem;
-} */
+/* -- Registry */
+#registry {
+  background-color: #c4ad84;
+  height: 15rem;
+}
+
+#helper-div {
+  position: relative;
+  top: 25%;
+}
+.registry-div {
+  height: 7rem;
+  background-color: white;
+  margin: 0 3rem;
+  position: relative;
+}
+
+.registry-img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+img[src*='barrel'] {
+  border: 1.5rem solid white;
+}
