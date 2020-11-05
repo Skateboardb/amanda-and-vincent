@@ -32,6 +32,11 @@
 
 /* Save the Date */
 
+.block {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 /* --Venue */
 
 #main-column {
@@ -102,4 +107,47 @@
 
 img[src*='barrel'] {
   border: 1.5rem solid white;
+}
+
+/* --Stay */
+
+#stay {
+  height: 25rem;
+}
+
+#room-photo {
+  background-image: url('./img/stay/room.jpg');
+
+  background-position: center;
+  background-size: cover;
+}
+
+.booking-helper {
+  /* background: #c4ad84; */
+  position: absolute;
+  margin-top: 7rem;
+  right: 3rem;
+  z-index: 2;
+  padding: 1rem 0 1rem 2rem;
+  border: solid white 2px;
+
+  width: 35rem;
+}
+
+#booking {
+  background: #c4ad84;
+  padding: 3rem 4rem;
+}
+
+.booking-form {
+  border: 1px solid white;
+}
+
+.form-header {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-field {
+  text-align: center;
 }
