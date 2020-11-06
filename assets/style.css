@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Lato:wght@300;400;700&family=Trocchi&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 /* Header  */
+.cursive {
+  font-family: 'Parisienne', cursive;
+}
 
 #header {
   text-align: center;
-  background: url('img/hero-extended.jpg') no-repeat center center;
+  background: url('img/hero-extended.jpg') no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -150,4 +159,117 @@ img[src*='barrel'] {
 
 .form-field {
   text-align: center;
+}
+
+/* --Bridal Party */
+
+.bridal-party-border {
+  position: absolute;
+  z-index: 2;
+  padding: 0 0.5rem 0.1rem 0.5rem;
+  border: 1px solid white;
+}
+
+#bridal-party-header {
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.bridesmaid-box {
+  background-color: #c4ad84;
+}
+.groomsmen-box {
+  background-color: #423733;
+}
+
+.bridesmaid-box,
+.groomsmen-box {
+  color: white;
+  padding: 5rem 3rem 3rem 3rem;
+}
+
+/* .bridesmaid-box-header::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 40%;
+  justify-content: center;
+  bottom: 0;
+  height: 1px;
+  width: 25%; 
+  border-bottom: 1px solid white;
+} */
+
+.party-box-header-1 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.party-box-header-2 {
+  margin-bottom: 2rem;
+}
+
+.line {
+  border-top: 1px solid white;
+}
+
+.bridal-party-image {
+  max-width: 100%;
+  border: 0.4rem solid white;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bridal-party-name {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Our Story  */
+#our-story {
+  text-align: center;
+  background: url('img/our-story/gate.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#story-header {
+  margin-bottom: 2rem;
+}
+
+#story-body {
+  padding-top: 11.5rem;
+  text-align: center;
+  color: white;
+}
+
+#story-text {
+  margin-top: 2rem;
+}
+
+/* Schedule */
+#schedule-header {
+  padding-left: 0;
+}
+
+.arrows {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+img[src*='arrow-left'] {
+  position: absolute;
+  right: -1rem;
+}
+
+img[src*='arrow-right'] {
+  position: absolute;
+  left: -2rem;
 }
