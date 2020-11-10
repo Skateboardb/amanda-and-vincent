@@ -273,6 +273,13 @@ img[src*='barrel'] {
 
 .form-field {
   text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 0.5rem;
+}
+
+#checkInDate {
+  padding: 0;
 }
 
 /* --Bridal Party */
