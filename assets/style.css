@@ -259,10 +259,10 @@ img[src*='barrel'] {
 
 #booking {
   background: #c4ad84;
-  padding: 3rem 4rem;
+  padding: 2rem 3rem 1rem 3rem;
 }
 
-.booking-form {
+.input-box {
   border: 1px solid white;
   color: white;
   padding: 0.5rem;
@@ -302,6 +302,8 @@ img[src*='barrel'] {
 .hasDatepicker {
   position: relative;
   top: 2px;
+  background: transparent;
+  color: white;
 }
 
 .counter-btn {
@@ -315,6 +317,15 @@ img[src*='barrel'] {
 
 .output {
   display: inline-block;
+}
+
+#booking-submit {
+  background-color: #423733;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  padding: 0.25rem 1rem;
+  margin-top: 1rem;
 }
 
 /* --Bridal Party */

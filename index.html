@@ -148,61 +148,65 @@
             <div class="col booking-helper">
               <div class="row">
                 <div class="col" id="booking">
-                  <div class="row justify-content-center">
-                    <div class="col-3 booking-form">
-                      <div class="row">
-                        <label for="checkInDate" class="col form-header"
-                          >Check In</label
-                        >
-                        <input
-                          placeholder="DD-MMM-YYYY"
-                          class="form-field"
-                          id="checkInDate"
-                        />
+                  <form action="" class="center" id="booking-form">
+                    <div class="row justify-content-center">
+                      <div class="col-3 input-box">
+                        <div class="row">
+                          <label for="checkInDate" class="col form-header"
+                            >Check In</label
+                          >
+                          <input
+                            placeholder="DD-MMM-YYYY"
+                            class="form-field"
+                            id="checkInDate"
+                            name="checkIn"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-3 booking-form">
-                      <div class="row">
-                        <label class="col form-header">Check Out</label>
-                        <input
-                          placeholder="DD-MMM-YYYY"
-                          class="form-field"
-                          id="checkOutDate"
-                        />
+                      <div class="col-3 input-box">
+                        <div class="row">
+                          <label class="col form-header">Check Out</label>
+                          <input
+                            placeholder="DD-MMM-YYYY"
+                            class="form-field"
+                            id="checkOutDate"
+                            name="checkOut"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-3 booking-form">
-                      <div class="row">
+                      <div class="col-3 input-box">
+                        <div class="row">
+                          <div class="col-12">
+                            <h2 class="col form-header">Rooms</h2>
+                          </div>
+                          <div class="col-12 center spinner-row">
+                            <input
+                              type="number"
+                              class="form-field"
+                              id="roomsNumber"
+                              min="1"
+                              name="rooms"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-3 input-box">
                         <div class="col-12">
-                          <h2 class="col form-header">Rooms</h2>
+                          <h2 class="col form-header">Guests</h2>
                         </div>
                         <div class="col-12 center spinner-row">
                           <input
                             type="number"
                             class="form-field"
-                            id="roomsNumber"
+                            id="guestsNumber"
                             min="1"
+                            name="guests"
                           />
                         </div>
                       </div>
                     </div>
-                    <div class="col-3 booking-form">
-                      <div class="col-12">
-                        <h2 class="col form-header">Guests</h2>
-                      </div>
-                      <div class="col-12 center spinner-row">
-                        <input
-                          type="number"
-                          class="form-field"
-                          id="guestsNumber"
-                          min="1"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="button">Book Now</div>
-                  </div>
+                    <button type="submit" id="booking-submit">Book Now</button>
+                  </form>
                 </div>
               </div>
             </div>
