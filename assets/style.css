@@ -11,16 +11,17 @@ body {
 
 #header {
   text-align: center;
-  background: url('img/hero-extended.jpg') no-repeat left center;
+  background: url('img/header-img-edited3.png') no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  padding-top: 2rem;
 }
 
 #logo {
-  width: 100px;
+  width: 10%;
   text-align: center;
 }
 
@@ -32,11 +33,18 @@ body {
   padding: 0 2rem;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: #c4ad84;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+}
+
 #hero-text {
-  width: 50%;
+  width: 40%;
   position: absolute;
   bottom: 1rem;
-  right: 0;
+  right: 10%;
 }
 
 /* Save the Date */
@@ -55,27 +63,133 @@ body {
 
 #save-date-headline {
   text-align: center;
+  font-family: 'Trocchi', serif;
+  font-size: 1.5rem;
+  text-transform: UPPERCASE;
+  color: #c4ad84;
+  position: relative;
+  /* top: 1rem; */
+  margin: 1.2rem 0;
+}
+
+img[src*='rings'] {
+  margin: 0 2rem;
+  position: relative;
+  top: -0.5rem;
+  width: 3rem;
 }
 
 .save-date-col {
-  height: 20rem;
+  height: 25rem;
 }
 
 #save-date-space {
   background-image: url('./img/stay/space.png');
 
-  background-position: center;
+  background-position-x: 25%;
+
   background-size: cover;
+}
+#save-date-space,
+#save-date-hotel {
+  width: 27%;
 }
 
 #save-date-venue {
   background-image: url('./img/stay/venue.png');
-
-  background-position: center;
-  background-size: cover;
+  background-position-x: center;
+  background-position-y: 80%;
+  background-size: 130%;
   border-right: white solid 0.5rem;
   border-left: white solid 0.5rem;
+  width: 45%;
 }
+
+#address {
+  /* background-image: url('img/stay/address-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 416px;
+  width: 100%;*/
+  padding: 0;
+}
+
+/* @media only screen and (min-width: 1333px) {
+  #address {
+    background-size: cover;
+  }
+} */
+
+img[src*='address'] {
+  width: 100%;
+  /* position: absolute; */
+}
+#save-date-address {
+  background-color: #c4ad84;
+  text-align: center;
+  margin: auto;
+  /* left: 50%; */
+  position: relative;
+  /* top: -100px; */
+  /* overflow: hidden; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* bottom: 0; */
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  max-width: 38%;
+}
+
+#address-row {
+  position: relative;
+  bottom: 217px;
+  margin-bottom: -217px;
+}
+
+#venue-address {
+  margin: auto;
+  /* padding-bottom: 50px; *
+  /
+
+  /* text-align: center; */
+  padding: 0;
+}
+#venue-header {
+  position: relative;
+  display: inline-block;
+  bottom: 162px;
+  /* width: %; */
+  /* top: -1rem; */
+  background-color: white;
+  color: #c4ad84;
+  font-family: 'parisienne', cursive;
+  margin: auto;
+  font-size: 2.5rem;
+  padding: 0.8rem 0.5rem 0 0.5rem;
+  background-clip: padding-box;
+  z-index: 2;
+}
+
+#address-text {
+  color: white;
+  font-size: 0.9rem;
+  padding: 2.5rem 0 1.5rem 0;
+  /* bottom: 2rem; */
+  position: relative;
+  text-transform: UPPERCASE;
+  border: dotted 2px white;
+  border-bottom: 0;
+  font-family: 'trocchi', serif;
+  margin-bottom: 0;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+}
+/* @supports (-webkit-text-stroke: 0.5px white) {
+  #address-text {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: white;
+    letter-spacing: 1px;
+  }
+} */
 
 #save-date-hotel {
   background-image: url('./img/stay/hotel.png');
@@ -272,4 +386,53 @@ img[src*='arrow-left'] {
 img[src*='arrow-right'] {
   position: absolute;
   left: -2rem;
+}
+
+#itinerary {
+  background-color: #c4ad84;
+  color: white;
+  margin: auto;
+}
+
+#date-switcher {
+  margin: 0.5rem auto 1rem auto;
+  border-bottom: 0.25rem solid white;
+}
+
+.itinerary-text {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.event-row {
+  margin-bottom: 0.75rem;
+}
+
+#hotel-info {
+  margin: 1rem auto auto auto;
+}
+
+img[src*='map'] {
+  /* max-height: 100%; */
+
+  position: relative;
+  top: 0.5rem;
+}
+img[src*='img'] {
+  max-width: 100%;
+}
+
+#hotel-guide {
+  background-color: white;
+}
+
+/* Footer  */
+
+footer {
+  background: url('img/schedule/footer-img.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
