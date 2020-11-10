@@ -264,24 +264,57 @@ img[src*='barrel'] {
 
 .booking-form {
   border: 1px solid white;
+  color: white;
+  padding: 0.5rem;
+}
+
+.booking-form > div > input {
+  color: white;
 }
 
 .form-header {
   font-size: 1rem;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .form-field {
   text-align: center;
   border: none;
   background: transparent;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin: auto;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+.form-field::placeholder {
+  color: white;
+  opacity: 0.6;
 }
 
 #checkInDate {
   padding: 0;
   text-align: center;
+}
+
+.hasDatepicker {
+  position: relative;
+  top: 2px;
+}
+
+.counter-btn {
+  border: none;
+  background: transparent;
+}
+
+.spinner-row {
+  padding: 0;
+}
+
+.output {
+  display: inline-block;
 }
 
 /* --Bridal Party */
@@ -444,4 +477,40 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+}
+
+/* Nice Number  */
+
+.nice-number {
+  display: inline-flex;
+  justify-content: stretch;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  margin: auto;
+}
+
+.nice-number input {
+  vertical-align: middle;
+  -moz-appearance: textfield;
+  box-sizing: content-box;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+.nice-number > button {
+  color: white;
+}
+
+.nice-number input::-webkit-inner-spin-button,
+.nice-number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div.nice-number > button {
+  border: none;
+  background: transparent;
 }

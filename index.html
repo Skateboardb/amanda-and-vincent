@@ -15,7 +15,9 @@
       rel="stylesheet"
       href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
     />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.nice-number.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
@@ -153,7 +155,7 @@
                           >Check In</label
                         >
                         <input
-                          placeholder="DD-Mmm-YYYY"
+                          placeholder="DD-MMM-YYYY"
                           class="form-field"
                           id="checkInDate"
                         />
@@ -163,7 +165,7 @@
                       <div class="row">
                         <label class="col form-header">Check Out</label>
                         <input
-                          placeholder="DD-Mmm-YYYY"
+                          placeholder="DD-MMM-YYYY"
                           class="form-field"
                           id="checkOutDate"
                         />
@@ -171,18 +173,30 @@
                     </div>
                     <div class="col-3 booking-form">
                       <div class="row">
-                        <h2 class="col form-header">Rooms</h2>
-                      </div>
-                      <div class="row">
-                        <p class="col form-field">text</p>
+                        <div class="col-12">
+                          <h2 class="col form-header">Rooms</h2>
+                        </div>
+                        <div class="col-12 center spinner-row">
+                          <input
+                            type="number"
+                            class="form-field"
+                            id="roomsNumber"
+                            min="1"
+                          />
+                        </div>
                       </div>
                     </div>
                     <div class="col-3 booking-form">
-                      <div class="row">
+                      <div class="col-12">
                         <h2 class="col form-header">Guests</h2>
                       </div>
-                      <div class="row">
-                        <p class="col form-field">text</p>
+                      <div class="col-12 center spinner-row">
+                        <input
+                          type="number"
+                          class="form-field"
+                          id="guestsNumber"
+                          min="1"
+                        />
                       </div>
                     </div>
                   </div>
