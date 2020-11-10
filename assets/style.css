@@ -276,10 +276,12 @@ img[src*='barrel'] {
   border: none;
   background: transparent;
   font-size: 0.5rem;
+  margin: auto;
 }
 
 #checkInDate {
   padding: 0;
+  text-align: center;
 }
 
 /* --Bridal Party */
