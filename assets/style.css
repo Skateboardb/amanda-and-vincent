@@ -4,6 +4,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#page-wrapper {
+  padding: 0;
+  background-color: #fff8ed;
+}
+
 /* Header  */
 .cursive {
   font-family: 'Parisienne', cursive;
@@ -23,10 +28,12 @@ body {
 #logo {
   width: 10%;
   text-align: center;
+  margin: auto;
 }
 
 #navbar {
   margin: auto;
+  /* background-color: #fff8ed80; */
 }
 
 .nav-item {
@@ -238,6 +245,13 @@ img[src*='barrel'] {
   height: 25rem;
 }
 
+#stay-header {
+  font-family: 'parisienne', cursive;
+  font-size: 3rem;
+  color: #c4ad84;
+  text-align: center;
+}
+
 #room-photo {
   background-image: url('./img/stay/room.jpg');
 
@@ -260,6 +274,7 @@ img[src*='barrel'] {
 #booking {
   background: #c4ad84;
   padding: 2rem 3rem 1rem 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .input-box {
@@ -335,10 +350,19 @@ img[src*='barrel'] {
   z-index: 2;
   padding: 0 0.5rem 0.1rem 0.5rem;
   border: 1px solid white;
+  border-top: none;
 }
 
 #bridal-party-header {
   background-color: white;
+  color: #c4ad84;
+  font-family: 'parisienne', cursive;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.party-box-header-2 > h2 {
+  font-family: 'parisienne', cursive;
+  font-size: 4rem;
 }
 
 .center {
@@ -409,12 +433,17 @@ img[src*='barrel'] {
 
 #story-header {
   margin-bottom: 2rem;
+  font-size: 6rem;
+  text-shadow: 0 0 5px #000;
 }
 
 #story-body {
   padding-top: 11.5rem;
   text-align: center;
   color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-shadow: 0 0 5px #000;
 }
 
 #story-text {
@@ -424,11 +453,18 @@ img[src*='barrel'] {
 /* Schedule */
 #schedule-header {
   padding-left: 0;
+  color: #c4ad84;
+  margin: 1rem auto;
+}
+
+#schedule-header > h1 {
+  font-size: 3rem;
 }
 
 .arrows {
   padding-top: 1rem;
   display: inline-block;
+  margin: 1rem 0.5rem;
 }
 
 img[src*='arrow-left'] {
@@ -450,6 +486,23 @@ img[src*='arrow-right'] {
 #date-switcher {
   margin: 0.5rem auto 1rem auto;
   border-bottom: 0.25rem solid white;
+}
+
+#date-switcher-header {
+  margin: 0 2rem;
+}
+
+#date-forward,
+#date-back {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#date-switcher > a,
+h2 {
+  display: inline-block;
 }
 
 .itinerary-text {
@@ -475,8 +528,18 @@ img[src*='img'] {
   max-width: 100%;
 }
 
+#hotel-header {
+  font-family: 'trocchi', serif;
+  color: #c4ad84;
+  text-transform: UPPERCASE;
+}
+
 #hotel-guide {
   background-color: white;
+}
+
+#hotel-guide > p {
+  color: #c4ad84;
 }
 
 /* Footer  */

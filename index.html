@@ -24,410 +24,391 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="container-fluid" id="header">
-      <img id="logo" src="assets/img/logo.png" alt="" />
-      <nav class="navbar navbar-expand-lg">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbar">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Venue </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Stay</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Registry</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Bridal Party</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Story</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Map</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <img id="hero-text" src="assets/img/hero-text.png" alt="" srcset="" />
-    </div>
-
-    <div class="container-fluid" id="main">
-      <div class="row">
-        <div class="col-11" id="main-column">
-          <h1 id="save-date-headline">
-            Save the date
-            <span><img src="assets/img/rings.jpg" alt="" srcset="" /></span>
-            January 1, 2022
-          </h1>
-          <div class="row block" id="save-date-row">
-            <!-- <div class="col save-date-col" id="save-date-space"></div>
-            <div class="col save-date-col" id="save-date-venue">
-              <div class="row helper-row"></div>
-              <div class="row">
-                <div class="col-11" id="save-date-address">
-                  <div class="row">
-                    <div class="col-12 center" id="venue-header">
-                      <h2>Venue</h2>
-                      <p id="address-text">
-                        Cork Facory Hotel, 480 New
-                        <br />Holland Avenue, Lancaster, <br />
-                        Pennsylvania 17602
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="row"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col save-date-col" id="save-date-hotel"></div> -->
-            <div class="col-12 center" id="address">
-              <img src="assets/img/stay/address-image.png" alt="" />
-              <h2 id="venue-header">Venue</h2>
-              <div class="row" id="address-row">
-                <div class="col-5" id="save-date-address">
-                  <div class="row">
-                    <div class="col-11 center" id="venue-address">
-                      <p id="address-text">
-                        Cork Factory Hotel, 480 New
-                        <br />Holland Avenue, Lancaster, <br />
-                        Pennsylvania 17602
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="row"></div>
-                </div>
-              </div>
+    <div class="container-fluid center" id="page-wrapper">
+      <div class="container-fluid" id="header">
+        <img id="logo" src="assets/img/logo.png" alt="" />
+        <nav class="navbar navbar-expand-lg">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbar">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Venue </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Stay</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Registry</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bridal Party</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Schedule</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Map</a>
+                </li>
+              </ul>
             </div>
           </div>
+        </nav>
+        <img id="hero-text" src="assets/img/hero-text.png" alt="" srcset="" />
+      </div>
 
-          <div class="row block" id="registry">
-            <div class="col-12">
-              <div class="row justify-content-center" id="helper-div">
-                <div class="col-4 registry-div">
-                  <img
-                    class="registry-img"
-                    src="assets/img/registry/macys.jpg"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-                <div class="col-4 registry-div">
-                  <img
-                    class="registry-img"
-                    src="assets/img/registry/crate-barrel.jpg"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row block" id="stay">
-            <div class="col booking-helper">
-              <div class="row">
-                <div class="col" id="booking">
-                  <form action="" class="center" id="booking-form">
-                    <div class="row justify-content-center">
-                      <div class="col-3 input-box">
-                        <div class="row">
-                          <label for="checkInDate" class="col form-header"
-                            >Check In</label
-                          >
-                          <input
-                            placeholder="DD-MMM-YYYY"
-                            class="form-field"
-                            id="checkInDate"
-                            name="checkIn"
-                          />
-                        </div>
+      <div class="container-fluid" id="main">
+        <div class="row">
+          <div class="col-11" id="main-column">
+            <h1 id="save-date-headline">
+              Save the date
+              <span><img src="assets/img/rings.jpg" alt="" srcset="" /></span>
+              January 1, 2022
+            </h1>
+            <div class="row block" id="save-date-row">
+              <div class="col-12 center" id="address">
+                <img src="assets/img/stay/address-image.png" alt="" />
+                <h2 id="venue-header">Venue</h2>
+                <div class="row" id="address-row">
+                  <div class="col-5" id="save-date-address">
+                    <div class="row">
+                      <div class="col-11 center" id="venue-address">
+                        <p id="address-text">
+                          Cork Factory Hotel, 480 New
+                          <br />Holland Avenue, Lancaster, <br />
+                          Pennsylvania 17602
+                        </p>
                       </div>
-                      <div class="col-3 input-box">
-                        <div class="row">
-                          <label class="col form-header">Check Out</label>
-                          <input
-                            placeholder="DD-MMM-YYYY"
-                            class="form-field"
-                            id="checkOutDate"
-                            name="checkOut"
-                          />
+                    </div>
+
+                    <div class="row"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row block" id="registry">
+              <div class="col-12">
+                <div class="row justify-content-center" id="helper-div">
+                  <div class="col-4 registry-div">
+                    <img
+                      class="registry-img"
+                      src="assets/img/registry/macys.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="col-4 registry-div">
+                    <img
+                      class="registry-img"
+                      src="assets/img/registry/crate-barrel.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row block" id="stay">
+              <div class="col booking-helper">
+                <div class="row">
+                  <div class="col" id="booking">
+                    <form action="" class="center" id="booking-form">
+                      <div class="row justify-content-center">
+                        <div class="col-3 input-box">
+                          <div class="row">
+                            <label for="checkInDate" class="col form-header"
+                              >Check In</label
+                            >
+                            <input
+                              placeholder="DD-MMM-YYYY"
+                              class="form-field"
+                              id="checkInDate"
+                              name="checkIn"
+                            />
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-3 input-box">
-                        <div class="row">
+                        <div class="col-3 input-box">
+                          <div class="row">
+                            <label class="col form-header">Check Out</label>
+                            <input
+                              placeholder="DD-MMM-YYYY"
+                              class="form-field"
+                              id="checkOutDate"
+                              name="checkOut"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-3 input-box">
+                          <div class="row">
+                            <div class="col-12">
+                              <h2 class="col form-header">Rooms</h2>
+                            </div>
+                            <div class="col-12 center spinner-row">
+                              <input
+                                type="number"
+                                class="form-field"
+                                id="roomsNumber"
+                                min="1"
+                                name="rooms"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3 input-box">
                           <div class="col-12">
-                            <h2 class="col form-header">Rooms</h2>
+                            <h2 class="col form-header">Guests</h2>
                           </div>
                           <div class="col-12 center spinner-row">
                             <input
                               type="number"
                               class="form-field"
-                              id="roomsNumber"
+                              id="guestsNumber"
                               min="1"
-                              name="rooms"
+                              name="guests"
                             />
                           </div>
                         </div>
                       </div>
-                      <div class="col-3 input-box">
-                        <div class="col-12">
-                          <h2 class="col form-header">Guests</h2>
-                        </div>
-                        <div class="col-12 center spinner-row">
-                          <input
-                            type="number"
-                            class="form-field"
-                            id="guestsNumber"
-                            min="1"
-                            name="guests"
-                          />
-                        </div>
+                      <button type="submit" id="booking-submit">
+                        Book Now
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-7" id="room-photo"></div>
+              <div class="col-5">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 id="stay-header">Stay</h1>
+                  </div>
+                </div>
+                <div class="row"></div>
+              </div>
+            </div>
+
+            <div class="row block justify-content-center" id="bridal-party">
+              <div class="bridal-party-border">
+                <h1 id="bridal-party-header">Bridal Party</h1>
+              </div>
+              <div class="col-6 bridesmaid-box">
+                <div class="row">
+                  <div class="col-12 center">
+                    <h2 class="party-box-header-1">Meet the</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 center party-box-header-2">
+                    <h2>Brides Maids</h2>
+                    <div class="row">
+                      <div class="col-4"></div>
+                      <div class="col-4 line"></div>
+                      <div class="col-4"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/bridesmaid.jpg"
+                          alt=""
+                          srcset=""
+                        />
                       </div>
                     </div>
-                    <button type="submit" id="booking-submit">Book Now</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-7" id="room-photo"></div>
-            <div class="col-5">
-              <div class="row">
-                <div class="col-2"></div>
-                <div class="col-10">
-                  <h1>Stay</h1>
-                </div>
-              </div>
-              <div class="row"></div>
-            </div>
-          </div>
-
-          <div class="row block justify-content-center" id="bridal-party">
-            <div class="bridal-party-border">
-              <h1 id="bridal-party-header">Bridal Party</h1>
-            </div>
-            <div class="col-6 bridesmaid-box">
-              <div class="row">
-                <div class="col-12 center">
-                  <h2 class="party-box-header-1">Meet the</h2>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 center party-box-header-2">
-                  <h2>Bridesmaids</h2>
-                  <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4 line"></div>
-                    <div class="col-4"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/bridesmaid.jpg"
-                        alt=""
-                        srcset=""
-                      />
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/bridesmaid.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/bridesmaid.jpg"
-                        alt=""
-                        srcset=""
-                      />
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/bridesmaid.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/bridesmaid.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/bridesmaid.jpg"
-                        alt=""
-                        srcset=""
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/bridesmaid.jpg"
-                        alt=""
-                        srcset=""
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-6 groomsmen-box">
-              <div class="row">
-                <div class="col-12 center">
-                  <h2 class="party-box-header-1">Meet the</h2>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 center party-box-header-2">
-                  <h2>Groomsmen</h2>
-                  <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4 line"></div>
-                    <div class="col-4"></div>
+              <div class="col-6 groomsmen-box">
+                <div class="row">
+                  <div class="col-12 center">
+                    <h2 class="party-box-header-1">Meet the</h2>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/groomsman.jpg"
-                        alt=""
-                        srcset=""
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                <div class="row">
+                  <div class="col-12 center party-box-header-2">
+                    <h2>Grooms Men</h2>
+                    <div class="row">
+                      <div class="col-4"></div>
+                      <div class="col-4 line"></div>
+                      <div class="col-4"></div>
                     </div>
                   </div>
                 </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/groomsman.jpg"
-                        alt=""
-                        srcset=""
-                      />
+                <div class="row">
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/groomsman.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/groomsman.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/groomsman.jpg"
-                        alt=""
-                        srcset=""
-                      />
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/groomsman.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                  <div class="col-3">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          class="bridal-party-image"
+                          src="assets/img/bridal-party/groomsman.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="row">
-                    <div class="col-12">
-                      <img
-                        class="bridal-party-image"
-                        src="assets/img/bridal-party/groomsman.jpg"
-                        alt=""
-                        srcset=""
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 center">
-                      <h4 class="bridal-party-name">
-                        Alina
-                        <br />
-                        Nguyen
-                      </h4>
+                    <div class="row">
+                      <div class="col-12 center">
+                        <h4 class="bridal-party-name">
+                          Alina
+                          <br />
+                          Nguyen
+                        </h4>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -435,141 +416,114 @@
             </div>
           </div>
         </div>
+
+        <div class="row"></div>
       </div>
 
-      <div class="row"></div>
+      <div class="container-fluid" id="our-story">
+        <div class="row" id="story-body">
+          <div class="col-md-3 col-sm-1"></div>
+          <div class="col-md-6 col-sm-11">
+            <div class="row">
+              <h1 class="center cursive col-12" id="story-header">Our Story</h1>
+            </div>
+
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4 line"></div>
+              <div class="col-4"></div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p class="center" id="story-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore cum maiores sint aspernatur voluptatum tempora
+                  perspiciatis repellendus dolore autem numquam illo nulla
+                  nostrum omnis fugit veritatis quis, distinctio, animi alias
+                  error architecto, qui nam tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="schedule">
+        <div class="row">
+          <div class="col center">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="arrows"
+                  src="assets/img/schedule/arrow-left.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="col-4" id="schedule-header">
+                <h1 class="cursive center">Schedule of Events</h1>
+              </div>
+              <div class="col-4">
+                <img
+                  class="arrows"
+                  src="assets/img/schedule/arrow-right.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4" id="itinerary">
+                <div class="row">
+                  <div class="col-12 center" id="date-switcher">
+                    <button id="date-back"><h2>&lt;</h2></button>
+                    <h2 id="date-switcher-header"></h2>
+                    <button id="date-forward"><h2>&gt;</h2></button>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12" id="events-container"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-11" id="hotel-info">
+            <div class="row">
+              <div class="col-6" id="maps-img">
+                <img
+                  src="assets/img/schedule/cork-factory-maps.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="col-6" id="hotel-guide">
+                <h2 id="hotel-header">Cork Factory Hotel</h2>
+                <img
+                  src="assets/img/schedule/cork-factory-img.jpg"
+                  alt=""
+                  srcset=""
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur nobis deleniti eius corporis assumenda! At
+                  ducimus tempora placeat eligendi corporis sunt quae,
+                  asperiores expedita dignissimos eius deleniti inventore error
+                  laudantium!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
     </div>
-
-    <div class="container-fluid" id="our-story">
-      <div class="row" id="story-body">
-        <div class="col-md-3 col-sm-1"></div>
-        <div class="col-md-6 col-sm-11">
-          <div class="row">
-            <h1 class="center cursive col-12" id="story-header">Our Story</h1>
-          </div>
-
-          <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4 line"></div>
-            <div class="col-4"></div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <p class="center" id="story-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                debitis quibusdam officiis doloremque eligendi laboriosam atque
-                iusto error earum corporis quas autem quia rem explicabo eius
-                mollitia nisi facilis, quisquam eaque praesentium aliquam dolor
-                sint ipsam temporibus? Laborum accusantium totam tenetur,
-                perspiciatis est beatae alias a hic corrupti tempore odit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="schedule">
-      <div class="row">
-        <div class="col center">
-          <div class="row">
-            <div class="col-4">
-              <img
-                class="arrows"
-                src="assets/img/schedule/arrow-left.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-4" id="schedule-header">
-              <h1 class="cursive center">Schedule of Events</h1>
-            </div>
-            <div class="col-4">
-              <img
-                class="arrows"
-                src="assets/img/schedule/arrow-right.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4" id="itinerary">
-              <div class="row">
-                <div class="col-12 center" id="date-switcher">
-                  <h2>&lt; 01 Jan 2022 &gt;</h2>
-                </div>
-              </div>
-
-              <div class="row event-row">
-                <div class="col-6">
-                  <h3 class="itinerary-text">Event</h3>
-                </div>
-                <div class="col-6">
-                  <h3 class="itinerary-text">00:00pm</h3>
-                </div>
-              </div>
-              <div class="row event-row">
-                <div class="col-6">
-                  <h3 class="itinerary-text">Event</h3>
-                </div>
-                <div class="col-6">
-                  <h3 class="itinerary-text">00:00pm</h3>
-                </div>
-              </div>
-              <div class="row event-row">
-                <div class="col-6">
-                  <h3 class="itinerary-text">Event</h3>
-                </div>
-                <div class="col-6">
-                  <h3 class="itinerary-text">00:00pm</h3>
-                </div>
-              </div>
-              <div class="row event-row">
-                <div class="col-6">
-                  <h3 class="itinerary-text">Event</h3>
-                </div>
-                <div class="col-6">
-                  <h3 class="itinerary-text">00:00pm</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-11" id="hotel-info">
-          <div class="row">
-            <div class="col-6" id="maps-img">
-              <img
-                src="assets/img/schedule/cork-factory-maps.jpg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-6" id="hotel-guide">
-              <h2 id="hotel-header">Cork Factory Hotel</h2>
-              <img
-                src="assets/img/schedule/cork-factory-img.jpg"
-                alt=""
-                srcset=""
-              />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur nobis deleniti eius corporis assumenda! At ducimus
-                tempora placeat eligendi corporis sunt quae, asperiores expedita
-                dignissimos eius deleniti inventore error laudantium!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="row"></div> -->
-    </div>
-    <footer></footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
