@@ -6,7 +6,6 @@ body {
 
 #page-wrapper {
   padding: 0;
-  background-color: #fff8ed;
 }
 
 /* Header  */
@@ -33,7 +32,6 @@ body {
 
 #navbar {
   margin: auto;
-  /* background-color: #fff8ed80; */
 }
 
 .nav-item {
@@ -75,7 +73,6 @@ body {
   text-transform: UPPERCASE;
   color: #c4ad84;
   position: relative;
-  /* top: 1rem; */
   margin: 1.2rem 0;
 }
 
@@ -113,35 +110,17 @@ img[src*='rings'] {
 }
 
 #address {
-  /* background-image: url('img/stay/address-image.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 416px;
-  width: 100%;*/
   padding: 0;
 }
 
-/* @media only screen and (min-width: 1333px) {
-  #address {
-    background-size: cover;
-  }
-} */
-
 img[src*='address'] {
   width: 100%;
-  /* position: absolute; */
 }
 #save-date-address {
   background-color: #c4ad84;
   text-align: center;
   margin: auto;
-  /* left: 50%; */
   position: relative;
-  /* top: -100px; */
-  /* overflow: hidden; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* bottom: 0; */
   padding: 1.5rem 1.5rem 0 1.5rem;
   max-width: 38%;
 }
@@ -154,18 +133,12 @@ img[src*='address'] {
 
 #venue-address {
   margin: auto;
-  /* padding-bottom: 50px; *
-  /
-
-  /* text-align: center; */
   padding: 0;
 }
 #venue-header {
   position: relative;
   display: inline-block;
   bottom: 162px;
-  /* width: %; */
-  /* top: -1rem; */
   background-color: white;
   color: #c4ad84;
   font-family: 'parisienne', cursive;
@@ -180,7 +153,6 @@ img[src*='address'] {
   color: white;
   font-size: 0.9rem;
   padding: 2.5rem 0 1.5rem 0;
-  /* bottom: 2rem; */
   position: relative;
   text-transform: UPPERCASE;
   border: dotted 2px white;
@@ -190,13 +162,6 @@ img[src*='address'] {
   line-height: 1.4rem;
   letter-spacing: 1px;
 }
-/* @supports (-webkit-text-stroke: 0.5px white) {
-  #address-text {
-    -webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: white;
-    letter-spacing: 1px;
-  }
-} */
 
 #save-date-hotel {
   background-image: url('./img/stay/hotel.png');
@@ -260,14 +225,12 @@ img[src*='barrel'] {
 }
 
 .booking-helper {
-  /* background: #c4ad84; */
   position: absolute;
   margin-top: 7rem;
   right: 3rem;
   z-index: 2;
   padding: 1rem 0 1rem 2rem;
   border: solid white 2px;
-
   width: 35rem;
 }
 
@@ -381,18 +344,6 @@ img[src*='barrel'] {
   color: white;
   padding: 5rem 3rem 3rem 3rem;
 }
-
-/* .bridesmaid-box-header::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  right: 40%;
-  justify-content: center;
-  bottom: 0;
-  height: 1px;
-  width: 25%; 
-  border-bottom: 1px solid white;
-} */
 
 .party-box-header-1 {
   font-size: 1rem;
@@ -515,12 +466,10 @@ h2 {
 }
 
 #hotel-info {
-  margin: 1rem auto auto auto;
+  margin: 2rem auto auto auto;
 }
 
 img[src*='map'] {
-  /* max-height: 100%; */
-
   position: relative;
   top: 0.5rem;
 }
