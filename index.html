@@ -21,7 +21,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/queries.css" />
   </head>
   <body>
     <div class="container-fluid center" id="page-wrapper">
@@ -67,7 +68,9 @@
             </div>
           </div>
         </nav>
-        <img id="hero-text" src="assets/img/hero-text.png" alt="" srcset="" />
+        <div id="hero-text-div">
+          <img id="hero-text" src="assets/img/hero-text.png" alt="" srcset="" />
+        </div>
       </div>
 
       <div class="container-fluid" id="main">
@@ -81,9 +84,11 @@
             <div class="row block" id="save-date-row">
               <div class="col-12 center" id="address">
                 <img src="assets/img/stay/address-image.png" alt="" />
+                <img src="assets/img/stay/space.png" alt="" />
+
                 <h2 id="venue-header">Venue</h2>
                 <div class="row" id="address-row">
-                  <div class="col-5" id="save-date-address">
+                  <div class="col-md-5 col-xs-11" id="save-date-address">
                     <div class="row">
                       <div class="col-11 center" id="venue-address">
                         <p id="address-text">
@@ -103,7 +108,7 @@
             <div class="row block" id="registry">
               <div class="col-12">
                 <div class="row justify-content-center" id="helper-div">
-                  <div class="col-4 registry-div">
+                  <div class="col-md-4 col-xs-5 registry-div">
                     <img
                       class="registry-img"
                       src="assets/img/registry/macys.jpg"
@@ -111,7 +116,7 @@
                       srcset=""
                     />
                   </div>
-                  <div class="col-4 registry-div">
+                  <div class="col-md-4 col-xs-5 registry-div">
                     <img
                       class="registry-img"
                       src="assets/img/registry/crate-barrel.jpg"
@@ -125,35 +130,46 @@
 
             <div class="row block" id="stay">
               <div class="col booking-helper">
+                <h1 id="stay-header-mobile">Stay</h1>
                 <div class="row">
                   <div class="col" id="booking">
                     <form action="" class="center" id="booking-form">
                       <div class="row justify-content-center">
-                        <div class="col-3 input-box">
+                        <div class="col-md-3 col-sm-8 col-8 input-box">
                           <div class="row">
-                            <label for="checkInDate" class="col form-header"
-                              >Check In</label
-                            >
-                            <input
-                              placeholder="DD-MMM-YYYY"
-                              class="form-field"
-                              id="checkInDate"
-                              name="checkIn"
-                            />
+                            <div class="col-12">
+                              <label for="checkInDate" class="col form-header"
+                                >Check In</label
+                              >
+                            </div>
+                            <div class="col-12">
+                              <input
+                                placeholder="DD-MMM-YYYY"
+                                class="form-field"
+                                id="checkInDate"
+                                name="checkIn"
+                              />
+                            </div>
                           </div>
                         </div>
-                        <div class="col-3 input-box">
+                        <div class="col-md-3 col-sm-8 col-8 input-box">
                           <div class="row">
-                            <label class="col form-header">Check Out</label>
-                            <input
-                              placeholder="DD-MMM-YYYY"
-                              class="form-field"
-                              id="checkOutDate"
-                              name="checkOut"
-                            />
+                            <div class="col-12">
+                              <label for="checkOutDate" class="col form-header"
+                                >Check Out</label
+                              >
+                            </div>
+                            <div class="col-12">
+                              <input
+                                placeholder="DD-MMM-YYYY"
+                                class="form-field"
+                                id="checkOutDate"
+                                name="checkOut"
+                              />
+                            </div>
                           </div>
                         </div>
-                        <div class="col-3 input-box">
+                        <div class="col-md-3 col-sm-8 col-8 input-box">
                           <div class="row">
                             <div class="col-12">
                               <h2 class="col form-header">Rooms</h2>
@@ -169,7 +185,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-3 input-box">
+                        <div class="col-md-3 col-sm-8 col-8 input-box">
                           <div class="col-12">
                             <h2 class="col form-header">Guests</h2>
                           </div>
@@ -193,7 +209,7 @@
               </div>
 
               <div class="col-7" id="room-photo"></div>
-              <div class="col-5">
+              <div class="col-md-5 col-sm-12" id="booking-col">
                 <div class="row">
                   <div class="col-12">
                     <h1 id="stay-header">Stay</h1>

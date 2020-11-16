@@ -1,0 +1,169 @@
+@media only screen and (max-width: 600px) {
+  #header {
+    background: url('../img/header-img-mobile2.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: brightness(90%);
+    padding: 0;
+    /* text-align: center; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+  }
+
+  #logo {
+    width: 30%;
+    position: relative;
+    top: 2rem;
+
+    /* text-align: center; */
+    /* margin: auto; */
+  }
+
+  #hero-text {
+    /* order: 1; */
+    position: relative;
+    width: 70%;
+    /* position: relative !important; */
+    /* top: 1rem; */
+    /* text-align: center; */
+    /* left: 0; */
+    bottom: 0;
+
+    /* overflow: hidden; */
+    /* z-index: 1; */
+  }
+
+  #hero-text-div {
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    /* right: 10%; */
+    background: linear-gradient(to top, #00000080, #00000000);
+  }
+
+  /* -------------------------
+        -----------
+        Main Column 
+        ----------- 
+------------------------- */
+
+  #main-column {
+    padding: 0;
+  }
+
+  #main {
+    padding: 0;
+  }
+
+  /* -------------------------
+        Main Column 
+------------------------- */
+
+  #save-date-headline {
+    text-align: center;
+    font-family: 'Trocchi', serif;
+    font-size: 1rem;
+    text-transform: UPPERCASE;
+    color: #c4ad84;
+    position: relative;
+    margin: 1.2rem 0;
+  }
+
+  img[src*='rings'] {
+    margin: 0 0.5rem;
+    position: relative;
+    top: -0.5rem;
+    width: 2rem;
+  }
+
+  #save-date-address {
+    max-width: 70%;
+  }
+
+  img[src*='address'] {
+    /* width: 100%; */
+    display: none;
+
+    height: 10rem;
+  }
+
+  img[src*='space'] {
+    width: 100%;
+    display: block;
+  }
+
+  #address-text {
+    font-size: 0.7rem;
+  }
+
+  /* -------------------------
+       Registry
+------------------------- */
+
+  #registry {
+    height: 9rem;
+  }
+
+  .registry-div {
+    margin: 0 1rem;
+    max-width: 40%;
+    height: 4rem;
+  }
+
+  .registry-div > .registry-img[src*='macys'] {
+    padding: 0 1rem;
+  }
+
+  /* -------------------------
+       Booking
+------------------------- */
+  #room-photo {
+    display: none;
+  }
+
+  #stay {
+    height: 100%;
+  }
+
+  #stay-header {
+    color: white;
+  }
+
+  /* #booking-col {
+    background: url('../img/stay/room.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+  #booking {
+    background: #c4ad84d4;
+
+    padding: 2rem;
+  }
+
+  .booking-helper {
+    background: url('../img/stay/room.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    right: auto;
+    height: auto;
+    padding: 2rem 0 0 0;
+  }
+
+  .form-header {
+    font-size: 1.5rem;
+  }
+
+  .hasDatepicker {
+    font-size: 1rem;
+    margin: auto;
+  }
+}

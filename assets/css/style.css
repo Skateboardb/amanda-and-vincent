@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Lato:wght@300;400;700&family=Trocchi&display=swap');
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#page-wrapper {
+  padding: 0;
+}
+
+/* Header  */
+.cursive {
+  font-family: 'Parisienne', cursive;
+}
+
+#header {
+  text-align: center;
+  background: url('../img/header-img-edited3.png') no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 2rem;
+}
+
+#logo {
+  width: 10%;
+  text-align: center;
+  margin: auto;
+}
+
+#navbar {
+  margin: auto;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #c4ad84;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+}
+
+#hero-text {
+  width: 40%;
+  position: absolute;
+  bottom: 1rem;
+  right: 10%;
+}
+
+/* Save the Date */
+
+.block {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* --Venue */
+
+#main-column {
+  margin: auto;
+  padding: 0 2rem;
+}
+
+#save-date-headline {
+  text-align: center;
+  font-family: 'Trocchi', serif;
+  font-size: 1.5rem;
+  text-transform: UPPERCASE;
+  color: #c4ad84;
+  position: relative;
+  margin: 1.2rem 0;
+}
+
+img[src*='rings'] {
+  margin: 0 2rem;
+  position: relative;
+  top: -0.5rem;
+  width: 3rem;
+}
+
+.save-date-col {
+  height: 25rem;
+}
+
+#save-date-space {
+  background-image: url('../img/stay/space.png');
+
+  background-position-x: 25%;
+
+  background-size: cover;
+}
+#save-date-space,
+#save-date-hotel {
+  width: 27%;
+}
+
+#save-date-venue {
+  background-image: url('./img/stay/venue.png');
+  background-position-x: center;
+  background-position-y: 80%;
+  background-size: 130%;
+  border-right: white solid 0.5rem;
+  border-left: white solid 0.5rem;
+  width: 45%;
+}
+
+#address {
+  padding: 0;
+}
+
+img[src*='address'] {
+  width: 100%;
+}
+
+img[src*='space'] {
+  width: 100%;
+  display: none;
+}
+
+#save-date-address {
+  background-color: #c4ad84;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  /* max-width: 38%; */
+}
+
+#address-row {
+  position: relative;
+  bottom: 217px;
+  margin-bottom: -217px;
+}
+
+#venue-address {
+  margin: auto;
+  padding: 0;
+}
+#venue-header {
+  position: relative;
+  display: inline-block;
+  bottom: 162px;
+  background-color: white;
+  color: #c4ad84;
+  font-family: 'parisienne', cursive;
+  margin: auto;
+  font-size: 2.5rem;
+  padding: 0.8rem 0.5rem 0 0.5rem;
+  background-clip: padding-box;
+  z-index: 2;
+}
+
+#address-text {
+  color: white;
+  font-size: 0.9rem;
+  padding: 2.5rem 0 1.5rem 0;
+  position: relative;
+  text-transform: UPPERCASE;
+  border: dotted 2px white;
+  border-bottom: 0;
+  font-family: 'trocchi', serif;
+  margin-bottom: 0;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+}
+
+#save-date-hotel {
+  background-image: url('../img/stay/hotel.png');
+
+  background-position: center;
+  background-size: cover;
+}
+
+/* -- Registry */
+#registry {
+  background-color: #c4ad84;
+  height: 15rem;
+}
+
+#helper-div {
+  position: relative;
+  top: 25%;
+}
+.registry-div {
+  height: 7rem;
+  background-color: white;
+  margin: 0 3rem;
+  position: relative;
+}
+
+.registry-img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+img[src*='barrel'] {
+  border: 1.5rem solid white;
+}
+
+/* --Stay */
+
+#stay {
+  height: 25rem;
+}
+
+#stay-header {
+  font-family: 'parisienne', cursive;
+  font-size: 3rem;
+  color: #c4ad84;
+  text-align: center;
+}
+
+#room-photo {
+  background-image: url('../img/stay/room.jpg');
+
+  background-position: center;
+  background-size: cover;
+}
+
+.booking-helper {
+  position: absolute;
+  margin-top: 7rem;
+  right: 3rem;
+  z-index: 2;
+  padding: 1rem 0 1rem 2rem;
+  border: solid white 2px;
+  width: 35rem;
+}
+
+#booking {
+  background: #c4ad84;
+  padding: 2rem 3rem 1rem 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-box {
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem;
+}
+
+.booking-form > div > input {
+  color: white;
+}
+
+.form-header {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.form-field {
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 0.6rem;
+  margin: auto;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+.form-field::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+#checkInDate {
+  padding: 0;
+  text-align: center;
+}
+
+.hasDatepicker {
+  position: relative;
+  top: 2px;
+  background: transparent;
+  color: white;
+}
+
+.counter-btn {
+  border: none;
+  background: transparent;
+}
+
+.spinner-row {
+  padding: 0;
+}
+
+.output {
+  display: inline-block;
+}
+
+#booking-submit {
+  background-color: #423733;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  padding: 0.25rem 1rem;
+  margin-top: 1rem;
+}
+
+/* --Bridal Party */
+
+.bridal-party-border {
+  position: absolute;
+  z-index: 2;
+  padding: 0 0.5rem 0.1rem 0.5rem;
+  border: 1px solid white;
+  border-top: none;
+}
+
+#bridal-party-header {
+  background-color: white;
+  color: #c4ad84;
+  font-family: 'parisienne', cursive;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.party-box-header-2 > h2 {
+  font-family: 'parisienne', cursive;
+  font-size: 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.bridesmaid-box {
+  background-color: #c4ad84;
+}
+.groomsmen-box {
+  background-color: #423733;
+}
+
+.bridesmaid-box,
+.groomsmen-box {
+  color: white;
+  padding: 5rem 3rem 3rem 3rem;
+}
+
+.party-box-header-1 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.party-box-header-2 {
+  margin-bottom: 2rem;
+}
+
+.line {
+  border-top: 1px solid white;
+}
+
+.bridal-party-image {
+  max-width: 100%;
+  border: 0.4rem solid white;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bridal-party-name {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Our Story  */
+#our-story {
+  text-align: center;
+  background: url('../img/our-story/gate.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#story-header {
+  margin-bottom: 2rem;
+  font-size: 6rem;
+  text-shadow: 0 0 5px #000;
+}
+
+#story-body {
+  padding-top: 11.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-shadow: 0 0 5px #000;
+}
+
+#story-text {
+  margin-top: 2rem;
+}
+
+/* Schedule */
+#schedule-header {
+  padding-left: 0;
+  color: #c4ad84;
+  margin: 1rem auto;
+}
+
+#schedule-header > h1 {
+  font-size: 3rem;
+}
+
+.arrows {
+  padding-top: 1rem;
+  display: inline-block;
+  margin: 1rem 0.5rem;
+}
+
+img[src*='arrow-left'] {
+  position: absolute;
+  right: -1rem;
+}
+
+img[src*='arrow-right'] {
+  position: absolute;
+  left: -2rem;
+}
+
+#itinerary {
+  background-color: #c4ad84;
+  color: white;
+  margin: auto;
+}
+
+#date-switcher {
+  margin: 0.5rem auto 1rem auto;
+  border-bottom: 0.25rem solid white;
+}
+
+#date-switcher-header {
+  margin: 0 2rem;
+}
+
+#date-forward,
+#date-back {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#date-switcher > a,
+h2 {
+  display: inline-block;
+}
+
+.itinerary-text {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.event-row {
+  margin-bottom: 0.75rem;
+}
+
+#hotel-info {
+  margin: 2rem auto auto auto;
+}
+
+img[src*='map'] {
+  position: relative;
+  top: 0.5rem;
+}
+img[src*='img'] {
+  max-width: 100%;
+}
+
+#hotel-header {
+  font-family: 'trocchi', serif;
+  color: #c4ad84;
+  text-transform: UPPERCASE;
+}
+
+#hotel-guide {
+  background-color: white;
+}
+
+#hotel-guide > p {
+  color: #c4ad84;
+}
+
+/* Footer  */
+
+footer {
+  background: url('../img/schedule/footer-img.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Nice Number  */
+
+.nice-number {
+  display: inline-flex;
+  justify-content: stretch;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  margin: auto;
+}
+
+.nice-number input {
+  vertical-align: middle;
+  -moz-appearance: textfield;
+  box-sizing: content-box;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+.nice-number > button {
+  color: white;
+}
+
+.nice-number input::-webkit-inner-spin-button,
+.nice-number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div.nice-number > button {
+  border: none;
+  background: transparent;
+}
