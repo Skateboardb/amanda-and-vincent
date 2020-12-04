@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   #header {
     background: url('../img/header-img-mobile2.png') no-repeat center center;
     -webkit-background-size: cover;
@@ -191,5 +191,89 @@
   .hasDatepicker {
     font-size: 1rem;
     margin: auto;
+  }
+
+  /* -------------------------
+       Bridal Party
+------------------------- */
+  .party-box-header-2 {
+    padding: 0;
+  }
+
+  .party-box-header-2 > h2 {
+    font-family: 'parisienne', cursive;
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .bridal-party-image {
+    max-width: 70%;
+
+    border: 0.2rem solid white;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .bridal-party-name {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  /* -------------------------
+       Story
+------------------------- */
+  #story-text-container {
+    padding: 0;
+  }
+
+  #story-text {
+    background: linear-gradient(to top, #00000080, #00000000);
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    padding: 0 2rem 3rem 2rem;
+  }
+
+  /* -------------------------
+       Schedule
+------------------------- */
+  .arrows {
+    /* width: 50%; */
+    margin: 1rem auto;
+    position: relative;
+    display: block;
+  }
+
+  img[src*='arrow-left'] {
+    position: relative;
+    /* right: -1rem; */
+  }
+  img[src*='arrow-right'] {
+    position: relative;
+    /* right: -1rem; */
+  }
+
+  #date-switcher-header {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  /* -------------------------
+       Hotel Info
+------------------------- */
+
+  #maps-img {
+    display: none;
+  }
+  #maps-img-mobile {
+    display: block;
+  }
+
+  #hotel-guide {
+    margin: auto;
+  }
+
+  img[src*='factory'] {
+    margin-bottom: 1rem;
   }
 }
