@@ -31,13 +31,26 @@
 
   <body>
     <div class="container-fluid center wrapper" id="page-wrapper">
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      <div class="container-fluid" id="header">
+      <header class="container-fluid" id="header">
         <img id="logo" src="assets/img/logo.png" alt="" />
+        <nav>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Stay</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Registry</a></li>
+            <li><a href="#">Bridal Party</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Map</a></li>
+          </ul>
+        </nav>
+
         <!-- <nav class="navbar navbar-expand-lg">
           <button
             class="navbar-toggler"
@@ -81,23 +94,11 @@
             </div>
           </div>
         </nav> -->
-        <nav>
-          <ul class="nav-links">
-            <li><a href="#">Venue</a></li>
-            <li><a href="#">Stay</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Registry</a></li>
-            <li><a href="#">Bridal Party</a></li>
-            <li><a href="#">Our Story</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Map</a></li>
-          </ul>
-        </nav>
 
         <div id="hero-text-div">
           <img id="hero-text" src="assets/img/hero-text.png" alt="" srcset="" />
         </div>
-      </div>
+      </header>
 
       <div class="container-fluid" id="main">
         <div class="row">
@@ -600,5 +601,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/nav.js"></script>
   </body>
 </html>
