@@ -1,4 +1,43 @@
 @media only screen and (max-width: 768px) {
+  /* -------------------------
+        Navigation
+------------------------- */
+
+  /* nav {
+  } */
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    top: 8vh;
+    left: 5vh;
+    z-index: 9;
+  }
+
+  .nav-links {
+    /* position: fixed; */
+    z-index: 5;
+    left: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #423733;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(-100vw);
+    transition: transform 0.5s ease-in;
+    /* opacity: 0; */
+  }
+
+  /* -------------------------
+       Header Content
+------------------------- */
+
   #header {
     background: url('../img/header-img-mobile2.png') no-repeat center center;
     -webkit-background-size: cover;
