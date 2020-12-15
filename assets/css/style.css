@@ -29,6 +29,8 @@ body {
 }
 
 #header {
+  --text: #c4ad84;
+  --text-inverse: #423733;
   text-align: center;
   background: url('../img/header-img-edited3.png') no-repeat left center;
   -webkit-background-size: cover;
@@ -36,7 +38,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  padding-top: 2rem;
+  padding: 2rem 0 0 0;
 }
 
 #logo {
@@ -60,12 +62,25 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 90%;
-  margin-top: 1rem;
-  position: sticky;
-
-  top: 1rem;
+  width: 100%;
+  /* padding-top: 5px; */
+  padding: 10px 5%;
+  position: relative;
+  height: auto;
+  top: auto;
   align-self: flex-start;
+  transition: 0.35s ease-in;
+}
+
+.nav-scrolled {
+  --text: #423733;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffffdd;
+  top: 0px;
+  padding: 10px 5%;
+  transition: 0.35s ease-in;
+  z-index: 9;
 }
 
 .nav-links li {
@@ -74,10 +89,13 @@ nav {
 }
 
 .nav-links a {
-  color: #c4ad84;
+  color: var(--text);
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 14px;
+  text-decoration: none;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
 }
 
 .burger {
@@ -105,23 +123,11 @@ nav {
   padding: 0 2rem;
 } */
 
-.nav-links a {
-  text-decoration: none;
-  color: #c4ad84;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
-    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
-}
-
 #hero-text {
   width: 40%;
   position: absolute;
   bottom: 1rem;
   right: 10%;
-}
-
-.nav-scrolled {
-  /* position: fixed;
-  top: 1rem; */
 }
 
 /* Save the Date */

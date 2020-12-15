@@ -1,6 +1,8 @@
 const burger = $('.burger');
+// const navbar = $('nav');
 const nav = $('.nav-links');
-const navLinks = $('.nav-links>li');
+const navLinks = document.querySelector('.nav-links');
+// const navLinks = $('.nav-links>li');
 const overlay = $('.overlay');
 const body = $('body');
 
@@ -30,25 +32,45 @@ body.on('click', (burger, overlay), () => {
 });
 
 // Sticky Nav Transition
-const headerObserverOptions = {
-  rootMargin: '0px 0px 0px 0px',
+const scrollObserverOptions = {
+  rootMargin: '-40px 0px 0px 0px',
 };
 
-const headerObserver = new IntersectionObserver(function (
+const scrollObserver = new IntersectionObserver(function (
   entries,
-  headerObserver
+  scrollObserver
 ) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
-      nav.addClass('nav-scrolled');
+      nav.toggleClass('nav-scrolled');
     } else {
       nav.removeClass('nav-scrolled');
     }
   });
 },
-headerObserverOptions);
+scrollObserverOptions);
 
-headerObserver.observe(logo);
+scrollObserver.observe(logo);
+
+const staticObserverOptions = {
+  rootMargin: '40px 0px 0px 0px',
+};
+
+const staticObserver = new IntersectionObserver(function (
+  entries,
+  staticObserver
+) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      nav.removeClass('nav-scrolled');
+    } else {
+      nav.addClass('nav-scrolled');
+    }
+  });
+},
+staticObserverOptions);
+
+staticObserver.observe(logo);
 
 let parent = document.querySelector('.nav-links').parentElement;
 
