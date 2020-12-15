@@ -1,0 +1,41 @@
+@media only screen and (max-width: 289px) {
+  #registry {
+    height: 15rem;
+  }
+
+  #helper-div {
+    top: 5%;
+  }
+
+  .registry-div {
+    margin-top: 2rem !important;
+  }
+}
+
+@media only screen and (max-device-width: 568px) and (orientation: landscape) {
+  #logo {
+    display: none;
+  }
+
+  #hero-text {
+    position: absolute;
+    /* background-color: #ffffff95; */
+    right: 0;
+    top: -100vh;
+    z-index: 4;
+    width: 30%;
+  }
+
+  #header {
+    --text: #c4ad84;
+    --text-inverse: #423733;
+    text-align: center;
+    background: url('../img/header-img-edited3.png') no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 0 0 0;
+  }
+}

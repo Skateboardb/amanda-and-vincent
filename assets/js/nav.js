@@ -1,12 +1,23 @@
+const vw = Math.max(
+  document.documentElement.clientWidth || 0,
+  window.innerWidth || 0
+);
+
 const burger = $('.burger');
 // const navbar = $('nav');
 const nav = $('.nav-links');
-const navLinks = document.querySelector('.nav-links');
-// const navLinks = $('.nav-links>li');
+
+const navLinks = $('.nav-links>li');
 const overlay = $('.overlay');
 const body = $('body');
 
 const logo = document.querySelector('#logo');
+
+if (vw >= 997) {
+  console.log('bigscreen');
+} else if (vw < 997) {
+  console.log('smallscreen');
+}
 
 body.on('click', (burger, overlay), () => {
   //Toggle Nav
