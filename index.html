@@ -32,6 +32,8 @@
   </head>
 
   <body>
+    <div class="overlay hidden"></div>
+
     <div class="container-fluid center" id="page-wrapper">
       <header class="container-fluid" id="header">
         <img id="logo" src="assets/img/logo.png" alt="" />
@@ -42,9 +44,8 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-links">
-            <li><a href="#">Venue</a></li>
-            <li><a href="#">Stay</a></li>
-            <li><a href="#">Work</a></li>
+            <li><a href="#main">Venue</a></li>
+            <li><a href="#hotel-info">Stay</a></li>
             <li><a href="#">Registry</a></li>
             <li><a href="#">Bridal Party</a></li>
             <li><a href="#">Our Story</a></li>
@@ -229,7 +230,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -250,7 +251,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -271,7 +272,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -292,7 +293,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -332,7 +333,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -353,7 +354,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -374,7 +375,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -395,7 +396,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 party-people">
                     <div class="row">
                       <div class="col-12">
                         <img
@@ -427,8 +428,7 @@
 
       <div class="container-fluid" id="our-story">
         <div class="row" id="story-body">
-          <div class="col-lg-3 col-sm-1"></div>
-          <div class="col-lg-6 col-sm-11">
+          <div class="col-lg-6 col-sm-11" id="story-content">
             <div class="row">
               <h1 class="center cursive col-12" id="story-header">Our Story</h1>
             </div>
@@ -439,7 +439,7 @@
               <div class="col-4"></div>
             </div>
 
-            <div class="row">
+            <div class="row" id="story-text-row">
               <div class="col" id="story-text-container">
                 <p class="center" id="story-text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.

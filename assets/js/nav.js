@@ -19,12 +19,14 @@ if (vw >= 997) {
   console.log('smallscreen');
 }
 
-body.on('click', (burger, overlay), () => {
+$('.burger, .overlay').on('click', () => {
   //Toggle Nav
   nav.toggleClass('nav-active');
 
   //Toggle Overlay
   overlay.toggleClass('hidden');
+
+  console.log('hello, I am clicked');
 
   //Animate Links
 

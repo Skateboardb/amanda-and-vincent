@@ -238,6 +238,7 @@
   }
 
   #stay-header-mobile {
+    font-size: 3rem;
     font-family: 'Parisienne', cursive;
     color: #c4ad84;
     background-color: white;
@@ -268,6 +269,10 @@
   /* -------------------------
        Bridal Party
 ------------------------- */
+  #bridal-party-header {
+    font-size: 3rem;
+  }
+
   .party-box-header-2 {
     padding: 0;
   }
@@ -276,6 +281,10 @@
     font-family: 'parisienne', cursive;
     font-size: 3rem;
     padding: 0;
+  }
+
+  .party-people {
+    margin-bottom: 1rem;
   }
 
   .bridal-party-image {
@@ -295,20 +304,59 @@
   /* -------------------------
        Story
 ------------------------- */
+
+  #our-story {
+    /* height: 100vh; */
+  }
+
+  #story-content {
+    /* position: absolute;
+    bottom: 0; */
+    /* margin-top: 5rem; */
+    margin-bottom: 0;
+    background: linear-gradient(to top, #00000080, #00000000);
+    /* height: 100%; */
+  }
+
+  #story-body {
+    /* height: 100%; */
+    padding-top: 1rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #story-header {
+    font-size: 4rem;
+    margin: 3rem 0;
+  }
+
+  #story-text-row {
+    /* position: absolute; */
+    bottom: 0;
+  }
+
   #story-text-container {
     padding: 0;
   }
 
   #story-text {
-    background: linear-gradient(to top, #00000080, #00000000);
-    margin-bottom: 0;
-    padding-bottom: 3rem;
+    /* background: linear-gradient(to top, #00000080, #00000000); */
+    /* font-size: 1rem; */
+    margin: 4rem auto 0 auto;
+    /* margin-bottom: 0; */
+    padding-bottom: 100%;
     padding: 0 2rem 3rem 2rem;
+    position: relative;
+    bottom: 0;
   }
 
   /* -------------------------
        Schedule
 ------------------------- */
+  #schedule {
+    /* z-index: 5; */
+  }
+
   .arrows {
     /* width: 50%; */
     margin: 1rem auto;
@@ -333,6 +381,10 @@
   /* -------------------------
        Hotel Info
 ------------------------- */
+
+  #hotel-header {
+    font-size: 1.7rem;
+  }
 
   #maps-img {
     display: none;

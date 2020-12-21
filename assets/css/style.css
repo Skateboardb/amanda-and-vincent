@@ -21,6 +21,20 @@ body {
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  margin: 0;
+  background: #00000050;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 4;
+}
+
 /* Header  */
 .cursive {
   font-family: 'Parisienne', cursive;
@@ -470,6 +484,11 @@ img[src*='barrel'] {
   -o-background-size: cover;
   background-size: cover;
   min-height: 100vh;
+  position: relative;
+}
+
+#story-content {
+  margin: auto;
 }
 
 #story-header {
