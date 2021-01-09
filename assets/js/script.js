@@ -146,10 +146,10 @@ $('#booking-form').on('submit', function (e) {
   let data = $(this).serializeArray();
   let checkIn = $.datepicker.formatDate('yy-mm-dd', new Date(data[0].value));
   let checkOut = $.datepicker.formatDate('yy-mm-dd', new Date(data[1].value));
-  let rooms = data[2].value;
-  let guests = data[3].value;
+  let children = data[2].value;
+  let adults = data[3].value;
 
-  let queryString = `https://be.synxis.com/?adult=${guests}&arrive=${checkIn}&chain=56&child=0&currency=USD&depart=${checkOut}&hotel=27766&level=hotel&locale=en-US&rooms=1`;
+  let queryString = `https://be.synxis.com/?adult=${adults}&arrive=${checkIn}&chain=56&child=${children}&currency=USD&depart=${checkOut}&hotel=27766&level=hotel&locale=en-US&rooms=1`;
 
   var win = window.open(queryString, '_blank');
   if (win) {

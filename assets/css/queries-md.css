@@ -307,13 +307,15 @@
 
   #our-story {
     /* height: 100vh; */
+    padding: 0;
   }
 
   #story-content {
     /* position: absolute;
     bottom: 0; */
     /* margin-top: 5rem; */
-    margin-bottom: 0;
+    margin: 0;
+    /* width: 100%; */
     background: linear-gradient(to top, #00000080, #00000000);
     /* height: 100%; */
   }
